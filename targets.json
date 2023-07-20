@@ -1,0 +1,27 @@
+{
+  "telegram": {
+    "url": "https://tgstat.ru/channel/@beebrah/stat",
+    "els": [
+      { "name": "#sticky-center-column", "dst": "scs/telegramOverall.png" }
+    ]
+  },
+  "twitchDetailed": {
+    "url": "https://twitchtracker.com/b3brina/statistics",
+    "els": [
+      { "name": "#sbm", "dst": "scs/monthlyTwitch.png" }
+    ]
+  },
+  "twitchOverall": {
+    "url": "https://twitchtracker.com/b3brina",
+    "els": [
+      { "name": "div.container:nth-child(8) > section:nth-child(1)", "dst": "scs/lastStreamsTwitch.png" },
+      { "name": "div.g-x-wrapper:nth-child(4) > div:nth-child(1)", "dst": "scs/overallTwitch.png" }
+    ]
+  },
+  "tiktok": {
+    "url": "https://www.tiktokviewcount.com/profile/@b3brina/TIKTOK",
+    "els": [
+      { "name": "html body div main div.flex.flex-col.p-4.mt-2 div main div.flex.flex-col.pb-4.pl-4.pr-4", "dst": "scs/tiktokOverall.png" }
+    ]
+  }
+}
